@@ -14,8 +14,8 @@ This repository is configured so that the VS Code LeetCode extension:
    - LeetCode (`leetcode.vscode-leetcode`)
    - C/C++ (`ms-vscode.cpptools`)
 3. Install a C++ compiler such as MinGW GCC if the PC does not already have one.
-   Then update `C_Cpp.default.compilerPath` in `.vscode/settings.json` if the
-   compiler is installed at a different path. The current PC uses
+   Then update `compilerPath` in `.vscode/c_cpp_properties.json` if the compiler
+   is installed at a different path. The current PC uses
    `D:/APPLICATIONS/MinGW/bin/g++.exe`.
 4. Sign in from the LeetCode extension.
 5. Open VS Code **User Settings (JSON)** and merge these settings:
@@ -45,9 +45,11 @@ For example, the current PC uses:
 
 ## Files that must remain in the repository
 
-- `.vscode/settings.json` — workspace-only C++ IntelliSense settings; update its
-  compiler path when moving to a PC where MinGW is installed elsewhere
-- `.vscode/leetcode.hpp` — headers/types supplied locally to IntelliSense
+- `.vscode/c_cpp_properties.json` — explicit LeetCode C++ IntelliSense
+  configuration; update its compiler path when MinGW is installed elsewhere
+- `.vscode/settings.json` — workspace-only editor settings
+- `.vscode/leetcode.hpp` — standard headers plus common LeetCode-only types
+  (`ListNode`, `TreeNode`, and `Node`) supplied locally to IntelliSense
 - `.vscode/extensions.json` — recommended VS Code extensions
 - `EASY/.gitkeep`, `MEDIUM/.gitkeep`, and `HARD/.gitkeep` — keep empty difficulty folders in Git
 

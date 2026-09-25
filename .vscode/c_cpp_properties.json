@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "LeetCode (MinGW)",
+            "compilerPath": "D:/APPLICATIONS/MinGW/bin/g++.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/.vscode/leetcode.hpp"
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,8 +1,3 @@
 {
-    "C_Cpp.default.forcedInclude": [
-        "${workspaceFolder}/.vscode/leetcode.hpp"
-    ],
-    "C_Cpp.default.compilerPath": "D:/APPLICATIONS/MinGW/bin/g++.exe",
-    "C_Cpp.default.cppStandard": "c++17",
     "editor.codeLens": true
 }
