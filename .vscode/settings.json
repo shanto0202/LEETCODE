@@ -1,3 +1,9 @@
 {
+    "C_Cpp.default.compilerPath": "D:/APPLICATIONS/MinGW/bin/g++.exe",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.forcedInclude": [
+        "${workspaceFolder}/.vscode/leetcode.hpp"
+    ],
     "editor.codeLens": true
 }
